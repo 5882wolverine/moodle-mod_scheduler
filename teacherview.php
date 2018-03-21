@@ -363,6 +363,7 @@ if ($groupmode) {
     if ($subpage == 'allappointments') {
         groups_print_activity_menu($cm, $taburl);
     } else {
+        groups_print_activity_menu($cm, $taburl);
         $a = new stdClass();
         $a->groupmode = get_string($groupmode == VISIBLEGROUPS ? 'groupsvisible' : 'groupsseparate');
         $groupnames = array();
